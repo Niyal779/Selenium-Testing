@@ -30,7 +30,7 @@ public class LogoutTest {
                 System.out.println("Logout link not found. Check header HTML.");
             }
             
-            Thread.sleep(3000); 
+            Thread.sleep(13000); 
             
             // 3. Take screenshot
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

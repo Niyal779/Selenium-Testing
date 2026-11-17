@@ -27,7 +27,7 @@ public class HomePageTest {
             driver.findElement(By.cssSelector("button[type='submit']")).click();
             
             // 4. Wait for the page to load after login
-            Thread.sleep(4000); 
+            Thread.sleep(14000); 
             
             // 5. Take screenshot
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

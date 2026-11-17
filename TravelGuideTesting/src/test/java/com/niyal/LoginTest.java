@@ -23,7 +23,7 @@ public class LoginTest {
             driver.findElement(By.cssSelector("button[type='submit']")).click();
             
             // Wait 5 seconds for the page to load
-            Thread.sleep(5000); 
+            Thread.sleep(10000); 
             
             // Take screenshot
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

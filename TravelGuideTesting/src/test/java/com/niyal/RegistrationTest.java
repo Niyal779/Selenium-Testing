@@ -39,7 +39,7 @@ public class RegistrationTest {
             // Click the Register button
             driver.findElement(By.cssSelector("button[type='submit']")).click();
             
-            // Wait for the process to complete
+            // Wait for the process to completemvn 
             Thread.sleep(14000); 
             
             // Take a screenshot and save it

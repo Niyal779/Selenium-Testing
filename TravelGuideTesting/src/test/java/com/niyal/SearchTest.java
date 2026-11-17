@@ -21,7 +21,7 @@ public class SearchTest {
             
             // 2. Type "Coxs Bazar" in the search box
             driver.findElement(By.cssSelector("input[type='text']")).sendKeys("Coxs Bazar");
-            Thread.sleep(2000);
+            Thread.sleep(22000);
             
             // 3. Take screenshot
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
